@@ -4,7 +4,7 @@ TESTS_DIR=tests
 
 setup_environment:
 	@echo "Creating virtual environment..."
-	@${ENV_BIN_DIR}/python -m venv venv
+	@python -m venv venv
 	@echo "Installing requirements..."
 	@${ENV_BIN_DIR}/pip install --upgrade pip
 	@${ENV_BIN_DIR}/pip install -r requirements.txt
